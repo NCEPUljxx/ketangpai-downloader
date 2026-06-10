@@ -1,7 +1,6 @@
 # Android build artifacts
 Android版/.buildozer/
 Android版/bin/ktp_downloader.apk
-Android版/bin/ktp_downloader_original_backup.apk
 Android版/ktp_downloader-*.apk
 Android版/debug.keystore
 
@@ -11,9 +10,6 @@ Windows版/.agents/
 Windows版/.claude/
 Windows版/.vscode/
 Windows版/ktp-downloader.exe
-Windows版/__pycache__/
-Windows版/src/ktp_core/__pycache__/
-Windows版/src/ktp_core/_pyaes/__pycache__/
 
 # Python cache
 __pycache__/
@@ -23,14 +19,11 @@ __pycache__/
 # IDE
 .idea/
 *.swp
-*.swo
 
-# Temporary files
+# Temp files
 *.apk.old
 *.tar.gz
 *.zip
 private.tar
-
-# WSL cache
 .claude/
 platform-tools/
